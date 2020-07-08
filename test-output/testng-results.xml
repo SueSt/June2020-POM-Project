@@ -2,80 +2,80 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="HubSpaot Test Automation Regression Suite" duration-ms="67023" started-at="2020-07-07T16:03:49Z" finished-at="2020-07-07T16:04:56Z">
+  <suite name="HubSpaot Test Automation Regression Suite" duration-ms="66544" started-at="2020-07-08T20:58:07Z" finished-at="2020-07-08T20:59:13Z">
     <groups>
     </groups>
-    <test name="LoginPage Test" duration-ms="17499" started-at="2020-07-07T16:03:49Z" finished-at="2020-07-07T16:04:06Z">
+    <test name="LoginPage Test" duration-ms="17961" started-at="2020-07-08T20:58:07Z" finished-at="2020-07-08T20:58:25Z">
       <class name="com.qa.hubspot.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.LoginPageTest@4102b1b1]" name="setUp" is-config="true" duration-ms="8492" started-at="2020-07-07T12:03:49Z" finished-at="2020-07-07T12:03:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.LoginPageTest@437e951d]" name="setUp" is-config="true" duration-ms="8953" started-at="2020-07-08T16:58:07Z" finished-at="2020-07-08T16:58:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.testcases.LoginPageTest@4102b1b1]" name="verifySignUpLinkTest" duration-ms="5792" started-at="2020-07-07T12:03:57Z" finished-at="2020-07-07T12:04:03Z">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.testcases.LoginPageTest@437e951d]" name="verifySignUpLinkTest" duration-ms="5951" started-at="2020-07-08T16:58:16Z" finished-at="2020-07-08T16:58:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.testcases.LoginPageTest@4102b1b1]" name="verifyLoginPageTitleTest" duration-ms="85" started-at="2020-07-07T12:04:03Z" finished-at="2020-07-07T12:04:04Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.testcases.LoginPageTest@437e951d]" name="verifyLoginPageTitleTest" duration-ms="213" started-at="2020-07-08T16:58:22Z" finished-at="2020-07-08T16:58:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.qa.hubspot.testcases.LoginPageTest@4102b1b1]" name="LoginTest" duration-ms="1099" started-at="2020-07-07T12:04:04Z" finished-at="2020-07-07T12:04:05Z">
+        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.qa.hubspot.testcases.LoginPageTest@437e951d]" name="LoginTest" duration-ms="1629" started-at="2020-07-08T16:58:22Z" finished-at="2020-07-08T16:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.LoginPageTest@4102b1b1]" name="TearDown" is-config="true" duration-ms="1448" started-at="2020-07-07T12:04:05Z" finished-at="2020-07-07T12:04:06Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.LoginPageTest@437e951d]" name="TearDown" is-config="true" duration-ms="747" started-at="2020-07-08T16:58:24Z" finished-at="2020-07-08T16:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.hubspot.testcases.LoginPageTest -->
     </test> <!-- LoginPage Test -->
-    <test name="HomePage Test" duration-ms="21130" started-at="2020-07-07T16:03:49Z" finished-at="2020-07-07T16:04:10Z">
+    <test name="HomePage Test" duration-ms="20581" started-at="2020-07-08T20:58:07Z" finished-at="2020-07-08T20:58:27Z">
       <class name="com.qa.hubspot.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="setUp" is-config="true" duration-ms="8493" started-at="2020-07-07T12:03:49Z" finished-at="2020-07-07T12:03:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="setUp" is-config="true" duration-ms="8873" started-at="2020-07-08T16:58:07Z" finished-at="2020-07-08T16:58:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="HomeSetUp()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="HomeSetUp" is-config="true" duration-ms="7767" started-at="2020-07-07T12:03:57Z" finished-at="2020-07-07T12:04:05Z">
+        <test-method status="PASS" signature="HomeSetUp()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="HomeSetUp" is-config="true" duration-ms="7093" started-at="2020-07-08T16:58:16Z" finished-at="2020-07-08T16:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeSetUp -->
-        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:1, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="verifyHomePageHeaderTest" duration-ms="3711" started-at="2020-07-07T12:04:05Z" finished-at="2020-07-07T12:04:09Z">
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:1, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="verifyHomePageHeaderTest" duration-ms="3523" started-at="2020-07-08T16:58:23Z" finished-at="2020-07-08T16:58:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="verifyLoggedInUserTest" duration-ms="306" started-at="2020-07-07T12:04:09Z" finished-at="2020-07-07T12:04:09Z">
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="verifyLoggedInUserTest" duration-ms="291" started-at="2020-07-08T16:58:26Z" finished-at="2020-07-08T16:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:3, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="verifyHomePageTitleTest" duration-ms="28" started-at="2020-07-07T12:04:09Z" finished-at="2020-07-07T12:04:09Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:3, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="verifyHomePageTitleTest" duration-ms="24" started-at="2020-07-08T16:58:27Z" finished-at="2020-07-08T16:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@159e366]" name="TearDown" is-config="true" duration-ms="748" started-at="2020-07-07T12:04:09Z" finished-at="2020-07-07T12:04:10Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.HomePageTest@6ac4944a]" name="TearDown" is-config="true" duration-ms="733" started-at="2020-07-08T16:58:27Z" finished-at="2020-07-08T16:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.hubspot.testcases.HomePageTest -->
     </test> <!-- HomePage Test -->
-    <test name="ContactsPage Test" duration-ms="67022" started-at="2020-07-07T16:03:49Z" finished-at="2020-07-07T16:04:56Z">
+    <test name="ContactsPage Test" duration-ms="66543" started-at="2020-07-08T20:58:07Z" finished-at="2020-07-08T20:59:13Z">
       <class name="com.qa.hubspot.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="setUp" is-config="true" duration-ms="8509" started-at="2020-07-07T12:03:49Z" finished-at="2020-07-07T12:03:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="setUp" is-config="true" duration-ms="8629" started-at="2020-07-08T16:58:07Z" finished-at="2020-07-08T16:58:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ContactSetup()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="ContactSetup" is-config="true" duration-ms="12728" started-at="2020-07-07T12:03:57Z" finished-at="2020-07-07T12:04:10Z">
+        <test-method status="PASS" signature="ContactSetup()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="ContactSetup" is-config="true" duration-ms="12743" started-at="2020-07-08T16:58:16Z" finished-at="2020-07-08T16:58:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactSetup -->
-        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="verifyContactsPageTitleTest" duration-ms="173" started-at="2020-07-07T12:04:10Z" finished-at="2020-07-07T12:04:10Z">
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="verifyContactsPageTitleTest" duration-ms="256" started-at="2020-07-08T16:58:28Z" finished-at="2020-07-08T16:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageTitleTest -->
-        <test-method status="PASS" signature="verifyContactsHeaderTest()[pri:2, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="verifyContactsHeaderTest" duration-ms="961" started-at="2020-07-07T12:04:10Z" finished-at="2020-07-07T12:04:11Z">
+        <test-method status="PASS" signature="verifyContactsHeaderTest()[pri:2, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="verifyContactsHeaderTest" duration-ms="906" started-at="2020-07-08T16:58:29Z" finished-at="2020-07-08T16:58:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsHeaderTest -->
-        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="createContactTest" duration-ms="10081" started-at="2020-07-07T12:04:13Z" data-provider="getContactsTestData" finished-at="2020-07-07T12:04:23Z">
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="createContactTest" duration-ms="10081" started-at="2020-07-08T16:58:31Z" data-provider="getContactsTestData" finished-at="2020-07-08T16:58:41Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="createContactTest" duration-ms="10684" started-at="2020-07-07T12:04:23Z" data-provider="getContactsTestData" finished-at="2020-07-07T12:04:34Z">
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="createContactTest" duration-ms="10527" started-at="2020-07-08T16:58:41Z" data-provider="getContactsTestData" finished-at="2020-07-08T16:58:51Z">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="createContactTest" duration-ms="10431" started-at="2020-07-07T12:04:34Z" data-provider="getContactsTestData" finished-at="2020-07-07T12:04:44Z">
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="createContactTest" duration-ms="10581" started-at="2020-07-08T16:58:51Z" data-provider="getContactsTestData" finished-at="2020-07-08T16:59:02Z">
           <params>
             <param index="0">
               <value>
@@ -153,7 +153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="createContactTest" duration-ms="10890" started-at="2020-07-07T12:04:44Z" data-provider="getContactsTestData" finished-at="2020-07-07T12:04:55Z">
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="createContactTest" duration-ms="10575" started-at="2020-07-08T16:59:02Z" data-provider="getContactsTestData" finished-at="2020-07-08T16:59:13Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@46292372]" name="TearDown" is-config="true" duration-ms="768" started-at="2020-07-07T12:04:55Z" finished-at="2020-07-07T12:04:56Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.hubspot.testcases.ContactsPageTest@1e34c607]" name="TearDown" is-config="true" duration-ms="781" started-at="2020-07-08T16:59:13Z" finished-at="2020-07-08T16:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
