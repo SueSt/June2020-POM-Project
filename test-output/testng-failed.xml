@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [HubSpaot Test Automation Regression Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
+  </listeners>
+  <test name="ContactsPage Test(failed)" parallel="tests">
     <classes>
+      <class name="com.qa.hubspot.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.testcases.LoginPageTest -->
       <class name="com.qa.hubspot.testcases.HomePageTest">
         <methods>
-          <include name="verifyLoggedInUserTest"/>
-          <include name="TearDown"/>
           <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="HomeSetUp"/>
         </methods>
       </class> <!-- com.qa.hubspot.testcases.HomePageTest -->
+      <class name="com.qa.hubspot.testcases.ContactsPageTest">
+        <methods>
+          <include name="createContactTest" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="ContactSetup"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.testcases.ContactsPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ContactsPage Test(failed) -->
+</suite> <!-- Failed suite [HubSpaot Test Automation Regression Suite] -->

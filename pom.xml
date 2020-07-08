@@ -14,10 +14,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aspectj.version>1.9.5</aspectj.version>
-
 	</properties>
 
-	<build>
+		<build>
 
 		<plugins>
 			<plugin>
@@ -40,7 +39,7 @@
 					<reuseForks>true</reuseForks>
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
+						<suiteXmlFile>.\src\tes\resources\testrunners\testng_regression.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<argLine>
@@ -139,8 +138,6 @@
 			<artifactId>tesults-testng</artifactId>
 			<version>1.0.2</version>
 		</dependency>
-
-
 
 	</dependencies>
 </project>
