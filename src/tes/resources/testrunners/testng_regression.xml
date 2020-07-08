@@ -21,7 +21,7 @@
 		</classes>
 	</test>
 
-	<test name="HomePage Test">
+<!-- <test name="HomePage Test">
 		<classes>
 			<class name="com.qa.hubspot.testcases.HomePageTest" />
 		</classes>
@@ -31,6 +31,6 @@
 		<classes>
 			<class name="com.qa.hubspot.testcases.ContactsPageTest" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite> 
